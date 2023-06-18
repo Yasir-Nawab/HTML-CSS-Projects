@@ -1,0 +1,39 @@
+.card
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: -0.8px 2px 2px grey;
+    margin: auto;
+}
+
+.card-img img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.card-write
+{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-button button
+{
+    background-color: rgb(55, 55, 202);
+    padding: 10px;
+    border: none;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-button button:hover
+{
+    background-color: rgb(255, 188, 4);
+    color: black;
+}

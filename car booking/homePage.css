@@ -1,0 +1,41 @@
+body{
+    background-image: url(./img/Range_Rover_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.both{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    height: 255px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: -4px 5px 5px rgb(78, 78, 78);
+}
+.both .signUp{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(218, 137, 32);
+    box-shadow: -3px 3px 5px rgb(87, 85, 84);
+    text-align: center;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 12px;
+    color: black;
+}
+.both a{
+    text-decoration: none;
+}
